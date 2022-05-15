@@ -1,0 +1,28 @@
+body {
+    background-color:#EEE;
+    font-family:'Lato',Helvetica,Arial;
+    font-size:15px;
+    display:flex;
+    margin:0;
+    min-height:100vh;
+}
+.models{
+    display: none;
+}
+.item{
+    width: 200px;
+    height: 200px;
+    background-color: aliceblue;
+    margin: 20px;
+    border-radius: 50%;
+    box-shadow: 0 0 1em rgb(93, 86, 190);
+}
+
+.item a{
+    display: flex;
+} 
+.item-area{
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+   
+}
